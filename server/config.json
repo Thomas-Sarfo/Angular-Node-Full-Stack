@@ -1,0 +1,22 @@
+{
+  "useSSL": false,
+  "ssrEnabled": true,
+  "stsAuthority": "https://aspnetcorests.azurewebsites.net",
+  "stsClient": "spa-api",
+  "database": {
+    "dialect": "sqlite",
+    "storage": "./db.sqlite"
+  },
+  "Security": {
+    "JWT_SECRET": "SECRET",
+    "SESSION_SECRET": "SECRET"
+  },
+  "mailOptions": {
+    "from": "",
+    "service": "gmail",
+    "auth": {
+      "user": "email",
+      "pass": "password"
+    }
+  }
+}
